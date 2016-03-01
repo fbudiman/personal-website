@@ -1,0 +1,27 @@
+  <nav class="tabs">
+    <span id="name-title">Fran Budiman</span>
+    <a ui-sref-active="active" ui-sref="welcome" class="navbar-links">Welcome</a>
+    <a ui-sref-active="active" ui-sref="about" class="navbar-links">About</a>
+    <a ui-sref-active="active" ui-sref="projects" class="navbar-links">Projects</a>
+    <a ui-sref-active="active" ui-sref="contact" class="navbar-links">Contact</a>
+  </nav>
+
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <div class="projects">
+    {{main.projects}}
+    <br>
+    <hr class="fade-line">
+    <a ui-sref-active="active" ui-sref="project-one"><img ng-src="{{main.images.one}}" class="img-thumbnail project-img"></a>
+    <a ui-sref-active="active" ui-sref="project-two"><img ng-src="{{main.images.two}}" class="img-thumbnail project-img"></a>
+    <a ui-sref-active="active" ui-sref="project-three"><img ng-src="{{main.images.three}}" class=" img-thumbnail project-img"></a>
+  </div>
+
+
+  <footer class="reg-footer">
+    © Fran Budiman 2016
+  </footer>

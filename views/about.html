@@ -1,0 +1,87 @@
+  <nav class="tabs">
+    <span id="name-title">Fran Budiman</span>
+    <a ui-sref-active="active" ui-sref="welcome" class="navbar-links">Welcome</a>
+    <a ui-sref-active="active" ui-sref="about" class="navbar-links">About</a>
+    <a ui-sref-active="active" ui-sref="projects" class="navbar-links">Projects</a>
+    <a ui-sref-active="active" ui-sref="contact" class="navbar-links">Contact</a>
+  </nav>
+
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <div class="about">
+    {{main.about}}
+    <br>
+    <hr class="fade-line">
+    <div class="row about-me">
+      <div class="col-md-4"><img src="images/personal.jpg" class="personal"></div>
+      <div class="col-md-6">
+
+        <div class="panel-group" id="accordion">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" data-target="#collapse1" href="#">
+                About Me</a>
+              </h4>
+            </div>
+            <div id="collapse1" class="panel-collapse collapse in">
+              <div class="panel-body">I'm Fran and I'm a fullstack web developer.
+              <br>
+              <br>
+              Coding is something I love to do for the simple fact that it challenges me creatively, and pushes me to think outside the box (or inside it, on top, and generally all over it). I love creating something out of nothing, and as a web developer, the possibilities are endless.
+              <br>
+              <br>
+              When I'm not coding, I love to bake, scout for new restaurants to eat at (and then eventually eat at those restaurants), hang out with my doggie and/or my friends, binge watch a ton of shows and movies until the end of time, and go travel to exciting new places.
+              </div>
+            </div>
+          </div>
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" data-target="#collapse2" href="#">
+                Experience</a>
+              </h4>
+            </div>
+            <div id="collapse2" class="panel-collapse collapse">
+              <div class="panel-body">Some of the technologies I have experience with:
+              <br>
+              <br>
+                <strong>LANGUAGES:</strong> HTML5, CSS3, Javascript, Ruby, NodeJS<br>
+                <strong>FRAMEWORKS:</strong> Rails, Express, AngularJS<br>
+                <strong>DATABASE TOOLS:</strong> PostgreSQL, MongoDB <br>
+                <strong>OTHER:</strong> Git/Github, jQuery, Heroku, JSON, Bootstrap
+              </div>
+            </div>
+          </div>
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" data-target="#collapse3" href="#">
+                Contact</a>
+              </h4>
+            </div>
+            <div id="collapse3" class="panel-collapse collapse">
+              <div class="panel-body">Hello world! Say hello back:
+              <br>
+              <br><i class="fa fa-phone-square fa-lg"></i>&nbsp;&nbsp;<strong>PHONE:</strong> 626-215-4803
+              <br><i class="fa fa-envelope-square fa-lg"></i>&nbsp;&nbsp;<strong>EMAIL:</strong> franbudiman14@gmail.com
+              <br><i class="fa fa-github fa-lg"></i>&nbsp;&nbsp;<strong>GITHUB:</strong> www.github.com/fbudiman
+              <br><i class="fa fa-linkedin fa-lg"></i>&nbsp;&nbsp;<strong>LINKEDIN:</strong> www.linkedin.com/in/franbudiman
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div class="col-md-2"></div>
+
+    </div>
+  </div>
+
+  <footer class="reg-footer">
+    © Fran Budiman 2016
+  </footer>

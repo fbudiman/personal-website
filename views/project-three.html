@@ -1,0 +1,51 @@
+  <nav class="tabs">
+    <span id="name-title">Fran Budiman</span>
+    <a ui-sref-active="active" ui-sref="welcome" class="navbar-links">Welcome</a>
+    <a ui-sref-active="active" ui-sref="about" class="navbar-links">About</a>
+    <a ui-sref-active="active" ui-sref="projects" class="navbar-links">Projects</a>
+    <a ui-sref-active="active" ui-sref="contact" class="navbar-links">Contact</a>
+  </nav>
+
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <div class="projects">
+    {{main.projects}}
+    <br>
+    <hr class="fade-line">
+    <a ui-sref-active="active" ui-sref="project-one"><img ng-src="{{main.images.one}}" class="img-thumbnail project-img" style="width: 18%; opacity: 0.6;"></a>
+    <a ui-sref-active="active" ui-sref="project-two"><img ng-src="{{main.images.two}}" class="img-thumbnail project-img" style="width: 18%; opacity: 0.6;"></a>
+    <a ui-sref-active="active" ui-sref="project-three"><img ng-src="{{main.images.three}}" class="img-thumbnail project-img" style="width: 23%;"></a>
+
+    <div class="proj-container">
+      <div class="inner-container">
+        <h3 style="font-size: 40pt;"><strong>Sugar Rush</strong></h3>
+          <p class="proj-desc">
+            Sugar Rush is a dessert delivery application targeted towards young adults and late-night snackers.
+            <br>
+            <br>
+            The Team: Fran Budiman, Nick Castaneda, Edward Yu, Gamaur Landrum, Thomas Choi
+          </p>
+          <p class="proj-desc">
+            Built With: Node, Express, MongoDB, JavaScript, HTML, CSS, Handlebars, Bootstrap, jQuery, Parallax
+          </p>
+      </div>
+      <div class="inner-container">
+        <img src="images/project3-1.png" class="zoomed-pic">
+        <img src="images/project3-3.png" class="zoomed-pic">
+        <img src="images/project3-2.png" class="zoomed-pic">
+      </div>
+    </div>
+
+  </div>
+
+  <footer class="project-footer">
+    <div class="row">
+      <div class="col-sm-5"></div>
+      <div class="col-sm-2"><center>© Fran Budiman 2016</center></div>
+      <div class="col-sm-5"></div>
+    </div>
+  </footer>
