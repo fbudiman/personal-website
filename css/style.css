@@ -174,8 +174,14 @@ font-family: 'Raleway', sans-serif;
 }
 @media (max-width: 380px) {
   .tabs {
-    padding: 10px;
+    padding: 35px;
     word-spacing: 20px;
-    font-size: 45px;
+    font-size: 50pt;
+  }
+  #main-welcome {
+    font-size: 50pt;
+  }
+  #under-main {
+    font-size: 34pt;
   }
 }
