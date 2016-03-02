@@ -12,7 +12,8 @@ function MainController() {
   this.images = {
     one: "images/project1-1.png",
     two: "images/project2-1.png",
-    three: "images/project3-1.png"
+    three: "images/project3-1.png",
+    four: "images/project4-1.png"
   }
 
 }
