@@ -15,5 +15,4 @@ function MainController() {
     three: "images/project3-1.png",
     four: "images/project4-1.png"
   }
-
 }
