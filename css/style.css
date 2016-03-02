@@ -1,4 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Amatic+SC);
+@import url(https://fonts.googleapis.com/css?family=Raleway);
 
 body {
   background-image: url('../images/main3.jpg');
@@ -16,12 +17,12 @@ body {
 }
 
 .navbar-links:hover {
-  color: #4E4E4E;
+  color: #5F5F5F;
   text-decoration: none;
 }
 
 .tabs {
-  background-color: black;
+  background-color: rgba(0,0,0,0.6);
   top: 0px;
   left: 0px;
   right: 0px;
@@ -31,7 +32,6 @@ body {
   word-spacing: 50px;
   font-family: 'Amatic SC', cursive;
   font-size: 35px;
-  opacity: 0.6;
 }
 
 #name-title {
@@ -43,14 +43,12 @@ body {
 }
 
 .contact-info {
-  font-family: Arial;
+font-family: 'Raleway', sans-serif;
   font-size: 15pt;
   text-align: left;
   padding: 0px 35px 0px 35px;
   line-height: 1.5;
   margin: 10px 350px 0px 350px;
-  /*border: 10px double white;*/
-  /*border-radius: 20px;*/
 }
 
 .about, .contact, .projects {
@@ -93,17 +91,19 @@ body {
 }
 
 .proj-desc {
-  font-family: Arial;
-  font-size: 12pt;
+  font-family: 'Raleway', sans-serif;
+  font-size: 13pt;
   text-align: left;
+  text-shadow: none;
 }
 
 .proj-container {
-  border: 10px double white;
+  border: 8px solid white;
   color: white;
   border-radius: 20px;
   margin: 0px 210px 75px 210px;
   padding: 0px 45px 20px 45px;
+  background-color: rgba(0,0,0,0.6);
 }
 
 .reg-footer {
@@ -128,19 +128,20 @@ body {
 }
 
 .personal {
-  width: 170px;
+  width: 150px;
   height: auto;
-  border: 10px double white;
+  border: 8px solid white;
   border-radius: 12px;
   float: right;
 }
 
 .about-me {
-  font-family: Arial;
+  font-family: 'Raleway', sans-serif;
   color: black;
   text-shadow: none;
-  font-size: 11pt;
+  font-size: 13pt;
   text-align: left;
+  line-height: 1.5;
 }
 
 .fade-line {
