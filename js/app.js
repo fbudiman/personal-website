@@ -32,6 +32,10 @@ function MainRouter($stateProvider, $urlRouterProvider) {
       url: '/project-three',
       templateUrl: 'views/project-three.html'
     })
+    .state('project-four', {
+      url: '/project-four',
+      templateUrl: 'views/project-four.html'
+    })
 
     $urlRouterProvider.otherwise('/')
 }
